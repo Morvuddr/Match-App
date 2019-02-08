@@ -12,6 +12,9 @@
 		CFD183D8220D74E100385331 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFD183D6220D74E100385331 /* Main.storyboard */; };
 		CFD183DA220D74E300385331 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFD183D9220D74E300385331 /* Assets.xcassets */; };
 		CFD183DD220D74E300385331 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFD183DB220D74E300385331 /* LaunchScreen.storyboard */; };
+		CFD183E5220D7C8000385331 /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD183E4220D7C8000385331 /* CardModel.swift */; };
+		CFD183E7220D7E0400385331 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD183E6220D7E0400385331 /* Card.swift */; };
+		CFD183E9220D81B100385331 /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD183E8220D81B100385331 /* CardCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		CFD183D9220D74E300385331 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFD183DC220D74E300385331 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CFD183DE220D74E300385331 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFD183E4220D7C8000385331 /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		CFD183E6220D7E0400385331 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		CFD183E8220D81B100385331 /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,9 @@
 			children = (
 				CFD183D2220D74E100385331 /* AppDelegate.swift */,
 				CFD183D4220D74E100385331 /* ViewController.swift */,
+				CFD183E6220D7E0400385331 /* Card.swift */,
+				CFD183E4220D7C8000385331 /* CardModel.swift */,
+				CFD183E8220D81B100385331 /* CardCollectionViewCell.swift */,
 				CFD183D6220D74E100385331 /* Main.storyboard */,
 				CFD183D9220D74E300385331 /* Assets.xcassets */,
 				CFD183DB220D74E300385331 /* LaunchScreen.storyboard */,
@@ -137,6 +146,9 @@
 			files = (
 				CFD183D5220D74E100385331 /* ViewController.swift in Sources */,
 				CFD183D3220D74E100385331 /* AppDelegate.swift in Sources */,
+				CFD183E5220D7C8000385331 /* CardModel.swift in Sources */,
+				CFD183E9220D81B100385331 /* CardCollectionViewCell.swift in Sources */,
+				CFD183E7220D7E0400385331 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

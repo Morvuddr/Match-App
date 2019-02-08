@@ -31,7 +31,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CardCell" id="Q2Z-Td-BGW">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CardCell" id="Q2Z-Td-BGW" customClass="CardCollectionViewCell" customModule="Match_App" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="158" height="224"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -56,6 +56,10 @@
                                             <constraint firstItem="Cfq-3d-veW" firstAttribute="top" secondItem="Q2Z-Td-BGW" secondAttribute="top" id="goc-ka-f6d"/>
                                             <constraint firstItem="Cfq-3d-veW" firstAttribute="leading" secondItem="Q2Z-Td-BGW" secondAttribute="leading" id="uJy-r5-7UU"/>
                                         </constraints>
+                                        <connections>
+                                            <outlet property="backImageView" destination="Cfq-3d-veW" id="CvF-cN-jJf"/>
+                                            <outlet property="frontImageView" destination="s1q-ah-fvc" id="wRy-8w-VDX"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
