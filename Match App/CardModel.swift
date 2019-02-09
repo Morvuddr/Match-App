@@ -19,11 +19,13 @@ class CardModel{
         for _ in 1...8 {
             
             let randomNumber = arc4random_uniform(13) + 1
-            //print(randomNumber)
+            
             let cardOne = Card()
             let cardTwo = Card()
+            
             cardOne.imageName = "card\(randomNumber)"
             cardTwo.imageName = "card\(randomNumber)"
+            
             generatedCardsArray.append(cardOne)
             generatedCardsArray.append(cardTwo)
             
